@@ -150,6 +150,10 @@ status = lora.send_to_wait(message, 10, retries=2), para 255.
 
 
 >Para enviar mensagens de forma efetiva um lora precisa está recebendo essas mensagens, para isso, em um arduino, conecte um shield lora e use a biblioteca radiohead de preferência, pois é a mesma que é usada na biblioteca python.
+ 
+ ## Verificação
+ 
+ Para testar o recebimento dos pacotes teste o código, "cliente" disponivel nesse repositorio, em um Dragino Lora shield, para testar a comunicação.
 
 
 
