@@ -109,8 +109,7 @@ você deverá ver 2 progamas nessa aba.
 
 >com a ajuda do diagrama de pinos agora nós podemos conectar a placa dragino com o raspberry, pegue seus fios jumpers!
 
- file:///home/icomp/Imagens/Capturas%20de%20tela/Captura%20de%20tela%20de%202023-02-25%2020-04-53.png
- 
+![Captura de tela de 2023-02-25 20-04-53](https://user-images.githubusercontent.com/60014649/221385369-5730ace0-0ecd-44f1-beab-0aa05fdd9457.png)
  >Conecte os fios de acordo com a descrição na tabela acima
 
 
@@ -148,30 +147,27 @@ lora.close()
 >crie um arquivo em python e coloque o código acima.
 
 
->baixe os arquivos no repositório abaixo e coloque o código criado anteriormente na mesma pasta:
+baixe os arquivos no repositório abaixo e coloque o código criado anteriormente na mesma pasta:
 https://github.com/epeters13/pyLoraRFM9x
 
 
 
 depois disso, vá para pasta onde está o seu arquivo python e execute com o seguinte comando:
 
+
 ```
 ~$ python3 <nome do arquivo>
 ```
 
 
->seu progama irá enviar 1 mensagem para o lora que tiver o enrdereço “10”, se quiser mudar e enviar para qualquer lora disponivel, mude o 10 em:
+seu progama irá enviar 1 mensagem para o lora que tiver o enrdereço “10”, se quiser mudar e enviar para qualquer lora disponivel, mude o 10 em:
 status = lora.send_to_wait(message, 10, retries=2), para 255.
+
 
 Do modo que está o módulo lora irá enviar 1 mensagem e encerrar o progama, para enviar mensagens contínuas será preciso colocar um while(true) ou algo similar.
 
+
 Para enviar mensagens de forma efetiva um lora precisa está recebendo essas mensagens, para isso, em um arduino, conecte um shield lora e use a biblioteca radiohead de preferência, pois é a mesma que é usada na biblioteca python.
-
-
-
-
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)]. <a href="https://github.com/facebook/docusaurus/graphs/contributors"><img src="https://opencollective.com/Docusaurus/contributors.svg?width=890&button=false" /></a>
-
 
 
 
