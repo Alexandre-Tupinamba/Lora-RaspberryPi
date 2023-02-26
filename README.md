@@ -1,10 +1,6 @@
 # Lora-RaspberryPi
 Esse repositório vai descrever o passo a passo para fazer funcionar um shield dragino lora hat/gps com um RaspberryPi 3 b+, utilizando uma biblioteca escrita em python
 
-
-# Projeto-IOT-monitoramento-remoto-de-guas-amazonicas
-Repositório para guardar tudo relacionado ao projeto Super, desenvolvido em parceria com a Samsumg
-
 <h1 align="center">
   <p align="center">Sensores</p>
   
