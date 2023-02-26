@@ -155,7 +155,8 @@ status = lora.send_to_wait(message, 10, retries=2), para 255.
  
  >Insira o Shield no Arduino da seguinte forma:
  
- ![Captura de tela de 2023-02-26 14-42-57](https://user-images.githubusercontent.com/60014649/221430186-18acb740-247d-49bd-a2b6-126af3d9d447.png)
+ 
+![27020439586_93b685027a_e (2)](https://user-images.githubusercontent.com/60014649/221430339-f1cf7c29-92a1-4f06-a897-54441688f0ea.jpg)
 
 
  
