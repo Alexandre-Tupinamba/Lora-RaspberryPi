@@ -113,7 +113,10 @@ você deverá ver 2 progamas nessa aba.
  >Conecte os fios de acordo com a descrição na tabela acima
 
 
- 
+ sua conexão deverá ficar dessa forma:
+ ![WhatsApp Image 2023-02-25 at 19 42 11](https://user-images.githubusercontent.com/60014649/221385412-7e2c28e9-6498-4251-9f13-ed24ccdb295f.jpeg)
+![WhatsApp Image 2023-02-25 at 19 42 10](https://user-images.githubusercontent.com/60014649/221385423-2178eccc-3ba9-4754-9dfd-d65e644f8e6d.jpeg)
+
 ## Após as conexões 
 
 >Após a conexão ser feita podemos começar a testar o código de envio:
@@ -160,14 +163,14 @@ depois disso, vá para pasta onde está o seu arquivo python e execute com o seg
 ```
 
 
-seu progama irá enviar 1 mensagem para o lora que tiver o enrdereço “10”, se quiser mudar e enviar para qualquer lora disponivel, mude o 10 em:
+>seu progama irá enviar 1 mensagem para o lora que tiver o enrdereço “10”, se quiser mudar e enviar para qualquer lora disponivel, mude o 10 em:
 status = lora.send_to_wait(message, 10, retries=2), para 255.
 
 
-Do modo que está o módulo lora irá enviar 1 mensagem e encerrar o progama, para enviar mensagens contínuas será preciso colocar um while(true) ou algo similar.
+>Do modo que está o módulo lora irá enviar 1 mensagem e encerrar o progama, para enviar mensagens contínuas será preciso colocar um while(true) ou algo similar.
 
 
-Para enviar mensagens de forma efetiva um lora precisa está recebendo essas mensagens, para isso, em um arduino, conecte um shield lora e use a biblioteca radiohead de preferência, pois é a mesma que é usada na biblioteca python.
+>Para enviar mensagens de forma efetiva um lora precisa está recebendo essas mensagens, para isso, em um arduino, conecte um shield lora e use a biblioteca radiohead de preferência, pois é a mesma que é usada na biblioteca python.
 
 
 
