@@ -1,10 +1,8 @@
 # Lora-RaspberryPi
 Esse repositório vai descrever o passo a passo para fazer funcionar um shield dragino lora hat/gps com um RaspberryPi 3 b+, utilizando uma biblioteca escrita em python
 
-<h1 align="center">
-  <p align="center">Sensores</p>
-  
-  
+<h1 align="center">  
+ 
   ![WhatsApp Image 2023-02-25 at 19 42 11](https://user-images.githubusercontent.com/60014649/221384638-3e3794de-e2e3-4bc7-9471-b9b713468cd2.jpeg)
 
 
