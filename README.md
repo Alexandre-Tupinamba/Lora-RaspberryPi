@@ -153,6 +153,11 @@ status = lora.send_to_wait(message, 10, retries=2), para 255.
  
  ## Verificação
  
+ >Insira o Shield no Arduino da seguinte forma:
+ 
+ ![WhatsApp Image 2023-02-25 at 19 42 11 (1)](https://user-images.githubusercontent.com/60014649/221429996-85c95fe0-7fdd-4ba5-83be-4e0e3e567fea.jpeg)
+
+ 
  Para testar o recebimento dos pacotes teste o código, "cliente" disponivel nesse repositorio, em um Dragino Lora shield, para testar a comunicação.
 
 
